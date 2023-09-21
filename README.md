@@ -13,9 +13,11 @@ Required packages can be installed through a conda environment using the require
 -  The editor takes in an image and displays the frequency spectrum, output after the current edit, and the original input image for comparison side-by-side.
 - Users can filter out high power peaks in the frequency spectrum by drawing band-pass filters dragging the mouse (left button) across a desired area in the power spectrum.
 - After a filter has been drawn, the output from the filtered power is updated in the middle which can be compared with the input on the right.
+- Editor can be terminated by pressing 'c' key on the keyboard.
 
 ## Usage:
 ``` python3 moire.py --input <input_file_name>```
+* Exit the editor by pressing **'c'** once done editing.
 
 ## Results:
 ![Compare3](utils/compare3.gif)
