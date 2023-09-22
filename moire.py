@@ -1,3 +1,10 @@
+"""
+* Editing a moire image in frequency domain.
+* Author: Sai Kumar Reddy Manne
+* Date : 09/21/2023
+* Class: CS 7180 Advanced Perception
+"""
+
 #imports
 import os, sys
 import cv2
